@@ -1,0 +1,91 @@
+#sweetType {
+    background-color: red;
+    border: 10px solid black;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+    font-size: 3rem;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+#cakePara {
+    font-size: 2rem;
+}
+
+#cakeSweet {
+    background-color: lightslategray;
+    border: 10px solid black;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+    font-size: 2rem;
+    text-align: center;
+    width: 400px;
+}
+
+#sweetOrder {
+    font-size: 2rem;
+}
+
+p::first-letter {
+    color: brown;
+}
+
+p::first-line {
+    color: green;
+}
+
+h2::before {
+    content: "🎴";
+}
+
+h2::after {
+    content: "🎴";
+}
+
+ol li::marker {
+    content: "😜";
+}
+
+p::selection {
+    background-color: lightgreen;
+}
+
+p:hover {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    font-size: 2rem;
+}
+
+a:link {
+    color: violet;
+}
+
+a:visited {
+    color: lightseagreen;
+}
+
+a:active {
+    background-color: darkmagenta;
+    color: black;
+}
+
+iframe {
+    width: 500px;
+    height: 500px;
+}
+
+body {
+    background-color: lightpink;
+}
+
+img:hover {
+    filter: blur(10px);
+}
